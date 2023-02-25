@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    height: fit-content;
+    margin: 0;
+}
+
+body {
+    margin:10px 20px;
+    
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #201f20;
+    display: flex;
+    font-size: 1.1rem;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#main-heading {
+    text-align: center;
+    margin:8px 0 14px 0;
+
+}
+
+#header {
+    color: #fff;
+}
+span {
+    color: rgb(20, 127, 0);
+}
+
+.password-generate{
+    padding: 4rem 2rem;
+    
+
+}
+
+#password-1 {
+    border-left: 10px solid whitesmoke;
+    border-radius: 5px;
+
+}
+
+p {
+    color: rgb(231, 223, 223);
+    margin: 5px 0 15px 0;
+}
+
+
+
+#clicked{
+    background-color: rgb(23, 133, 133);
+    margin: 5px 0 15px 0;
+    padding:  4px 8px;
+    border-radius: 4px ;
+    color: rgb(231, 223, 223);
+    text-align: center;
+
+
+
+}
+
+.btn {
+    text-align: center;
+    margin: 1rem 0 0 0;
+    background-color: #201f20;
+}
+
+#disabled-btn {
+    width: 35%;
+    height: 1.5rem;
+    
+   background-color: steelblue;
+   color:rgb(231, 223, 223)
+   
+
+}
+
+#disabled-btn-2 {
+    width: 35%;
+    height: 1.5rem;
+    background-color: steelblue;
+    color:rgb(231, 223, 223)
+}
+
+
